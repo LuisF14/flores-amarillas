@@ -124,7 +124,7 @@ export default function GrowingFlower() {
         {travel && <InfiniteGarden entry={entry} reducedMotion={reducedMotion} onEntered={() => setEntered(true)} />}
         <audio ref={audioRef} src="/audio/vienna.mp3" preload="auto" loop playsInline />
         <SoundButton enabled={enabled} started={started} volume={volume} onVolume={setVolume} onToggle={toggle} />
-        <noscript><p className="noscript-note">Esta flor necesita JavaScript para crecer. Actívalo y vuelve a cargar la página. Feliz 21 de septiembre 💛</p></noscript>
+        <noscript><p className="noscript-note">Esta flor necesita JavaScript para crecer. Actívalo y vuelve a cargar la página. Feliz dia de las flores amarillas 💛</p></noscript>
       </main>
     </MotionConfig>
   );
